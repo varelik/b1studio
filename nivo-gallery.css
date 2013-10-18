@@ -10,16 +10,17 @@
  */
  
 .nivoGallery {
-    position:relative;
+    position:absolute;
     background:#000 url(images/loading.gif) no-repeat 50% 50%;
-    width:800px; /* Width can be fixed px or dynamic % value */
-    height:400px; /* Height must be fixed px value */
-    margin-top:100px;
+    width:1000px; /* Width can be fixed px or dynamic % value */
+    height:500px; /* Height must be fixed px value */
+    top:300px;
+    margin-top:0px;
     margin-bottom:0px;
     left:500px;
 }
 .nivoGallery.loaded {
-    background:#000; /* Remove the loading gif */
+    /*background:#000;  Remove the loading gif */
 }
 .nivoGallery ul {
     list-style:none;

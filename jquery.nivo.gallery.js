@@ -101,7 +101,7 @@
                     global.progressTimer = setInterval(function(){
                         var ellapsed = new Date() - progressStart;
                         var perc = (ellapsed / plugin.settings.pauseTime) * 100;
-                        $element.find('.nivoGallery-progress').width(perc + '%');
+                        $element.find('.nivoGallery-progress').width(0 + '%');
                         if(perc > 100){
                             clearInterval(global.progressTimer);
                             $element.find('.nivoGallery-progress').width('0%');
